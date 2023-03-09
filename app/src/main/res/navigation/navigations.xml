@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigations"
+    app:startDestination="@id/baseFragment">
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.sagul.wowo.view.baseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" >
+        <action
+            android:id="@+id/action_baseFragment_to_signInFragment2"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/anim2"
+            app:popEnterAnim="@anim/anim" />
+        <action
+            android:id="@+id/action_baseFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.sagul.wowo.view.signInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.sagul.wowo.view.ShowFragment"
+        android:label="fragment_show"
+        tools:layout="@layout/fragment_show" />
+</navigation>

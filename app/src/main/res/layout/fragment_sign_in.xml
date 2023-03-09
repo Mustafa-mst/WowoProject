@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.signInFragment">
+<TextView
+    android:id="@+id/letsTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Let's Go"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+    android:fontFamily="@font/inter_semibold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="40dp"></TextView>
+
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_light"
+        android:text="Hello,again,where have you been :)"
+        android:layout_marginLeft="20dp"
+        android:textColor="#808080"
+
+
+        android:textSize="18sp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Email Adress"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+
+
+        android:textSize="18sp"></TextView>
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editback"
+        android:hint="Enter your e-mail"
+        android:textColor="@color/black"
+        android:padding="15dp"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Password"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+
+
+        android:textSize="18sp"></TextView>
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/editback"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/black"></EditText>
+    <TextView
+        android:id="@+id/againPasswordTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Password Again"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+
+
+
+        android:textSize="18sp"></TextView>
+
+    <EditText
+        android:id="@+id/againSignPassword"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:background="@drawable/editback"
+        android:hint="Enter your password again"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/black"></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signBtn"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="58dp"
+        android:background="@drawable/signbtn"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textSize="18sp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter_medium"></androidx.appcompat.widget.AppCompatButton>
+    <ImageView
+        android:id="@+id/mapGors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gr"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"></ImageView>
+
+
+</LinearLayout>

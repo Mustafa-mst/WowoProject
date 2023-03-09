@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diagram"
+    android:orientation="vertical"
+    tools:context=".view.baseFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/letsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Get\nStarted"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginLeft="20sp"
+        android:textSize="45sp"></TextView>
+    <TextView
+        android:id="@+id/subTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somethings about countries"
+        android:fontFamily="@font/inter_light"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20sp"></TextView>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinNow"
+        android:layout_width="354dp"
+
+        android:layout_height="58dp"
+
+        android:background="@drawable/buttonbck"
+        android:fontFamily="@font/inter_medium"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Join Now"
+
+        android:textAllCaps="false"
+        android:textColor="#298A84"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_medium"
+            android:text="Already have an account?"
+            android:textColor="#AECAC7"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+             />
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/inter_medium"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

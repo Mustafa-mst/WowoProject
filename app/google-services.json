@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523953133569",
+    "project_id": "wowo-ec42d",
+    "storage_bucket": "wowo-ec42d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523953133569:android:c26df01a78e944757f4800",
+        "android_client_info": {
+          "package_name": "com.sagul.wowo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523953133569-o789ano2is4cvkuotnmp9cvns0khb3b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGEqFMEXqecXtjtoMzxL1ZTQMOXA_ElqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523953133569-o789ano2is4cvkuotnmp9cvns0khb3b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

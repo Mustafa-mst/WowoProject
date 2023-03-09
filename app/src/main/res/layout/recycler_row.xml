@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/black">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/recyclerImg"
+        android:src="@drawable/ic_launcher_background"
+        ></ImageView>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/diagram01"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/countryRcy"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/inter_light"
+            android:text="Ülke"
+            android:textColor="@color/white"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Para Birimi:"
+            android:textSize="20sp"
+            android:fontFamily="@font/inter_light"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/moneyRcy"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otel"
+            android:fontFamily="@font/inter_light"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/otelRcy"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yemek:"
+            android:fontFamily="@font/inter_light"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+
+            android:id="@+id/foodRcy"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ulaşım:"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/inter_light"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/transportRcy"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hava Durumu:"
+            android:textSize="20sp"
+            android:fontFamily="@font/inter_light"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+
+            android:layout_marginBottom="8dp"
+            android:id="@+id/havaRcy"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
